@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(66, 66, 66);
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Post {
+    margin: 0px;
+    width: 500px;
+    background-color: white;
+    border-bottom: lightgrey solid 2px;
+}
+
+.Head {
+    display: flex;
+    padding: 15px;
+}
+
+.Head .Perfil img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.Head .titulo p{
+    height: 15px;
+    margin: 0;
+    padding-top:0px;
+}
+
+.Head button {
+    width: 30px;
+    margin-left: auto;
+    padding-top: 7px;
+}
+
+.Foto img{
+    width: 100%;
+    height: auto;
+}
+
+.Bottom {
+    padding: 15px;
+}
+
+.Buttons {
+    display: flex;
+}
+
+.Buttons i{
+    margin: 3px auto;
+}
+
+.BookMark {
+    margin-left: auto;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: large;
+}
+
+button:active {
+    font-size: medium;
+}
+
